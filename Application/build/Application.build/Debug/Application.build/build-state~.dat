@@ -1,0 +1,196 @@
+TApplication
+v7
+r0
+t328059838.825378
+cCheck dependencies
+cProcessInfoPlistFile /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Info.plist Application-Info.plist
+cCopyStringsFile /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch.gch Application_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Application.build/Debug/Application.build/Objects-normal/x86_64/main.o /Sites/sandbox/Music-Player/Application/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Application.build/Debug/Application.build/Objects-normal/x86_64/ApplicationAppDelegate.o /Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application normal x86_64
+cTouch /Sites/sandbox/Music-Player/Application/build/Debug/Application.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.h
+c000000004DDD93F9000000000000013F
+t1306366969
+s319
+i<Cocoa/Cocoa.h>
+
+N/Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m
+c000000004DDD93F90000000000000178
+t1306366969
+s376
+i"ApplicationAppDelegate.h"
+
+N/Sites/sandbox/Music-Player/Application/Application_Prefix.pch
+c000000004DDD93F90000000000000099
+t1306366969
+s153
+i<Cocoa/Cocoa.h>
+
+N/Sites/sandbox/Music-Player/Application/English.lproj/InfoPlist.strings
+c000000004DDD93F9000000000000002D
+t1306366969
+s45
+
+N/Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib
+c000000004DDD93F9000000000002BB97
+t1306366969
+s179095
+
+N/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/Application.LinkFileList
+c000000004DDD943B00000000000000FC
+t1306367035
+s252
+
+N/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/ApplicationAppDelegate.o
+t1306367038
+s21208
+
+N/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/main.o
+t1306367038
+s5000
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app
+t1306367038
+s102
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Info.plist
+t1306367035
+s1297
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application
+t1306367038
+s14600
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/PkgInfo
+t1306367035
+s8
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1306367035
+s92
+
+N/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/MainMenu.nib
+t1306367035
+s34430
+
+N/Sites/sandbox/Music-Player/Application/main.m
+c000000004DDD93F900000000000000F9
+t1306366969
+s249
+i<Cocoa/Cocoa.h>
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004D53E65D000000000000A5E0
+t1297344093
+s42464
+
+N/var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch.gch
+t1306367037
+s54306576
+
+NApplication-Info.plist
+c000000004DDD93F900000000000003EA
+t1306366969
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328059835#328059835#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/Application.build/Debug/Application.build/Objects-normal/x86_64/ApplicationAppDelegate.o /Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328059838.043935
+e328059838.294012
+r1
+xCompileC
+xbuild/Application.build/Debug/Application.build/Objects-normal/x86_64/ApplicationAppDelegate.o
+x/Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m328059838#328059838#0(0"0(0#0#64"/Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m8610720224#1577"    cd /Sites/sandbox/Music-Player/Application    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-generated-files.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-own-target-headers.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-all-target-headers.hmap -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-project-headers.hmap -F/Sites/sandbox/Music-Player/Application/build/Debug -I/Sites/sandbox/Music-Player/Application/build/Debug/include -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources/x86_64 -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources -include /var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch -c /Sites/sandbox/Music-Player/Application/ApplicationAppDelegate.m -o /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/ApplicationAppDelegate.o0#
+
+CCompileC build/Application.build/Debug/Application.build/Objects-normal/x86_64/main.o /Sites/sandbox/Music-Player/Application/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328059838.043170
+e328059838.283242
+r1
+xCompileC
+xbuild/Application.build/Debug/Application.build/Objects-normal/x86_64/main.o
+x/Sites/sandbox/Music-Player/Application/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Sites/sandbox/Music-Player/Application/main.m328059838#328059838#0(0"0(0#0#46"/Sites/sandbox/Music-Player/Application/main.m8613057120#1541"    cd /Sites/sandbox/Music-Player/Application    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-generated-files.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-own-target-headers.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-all-target-headers.hmap -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-project-headers.hmap -F/Sites/sandbox/Music-Player/Application/build/Debug -I/Sites/sandbox/Music-Player/Application/build/Debug/include -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources/x86_64 -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources -include /var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch -c /Sites/sandbox/Music-Player/Application/main.m -o /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib
+s328059835.237376
+e328059835.475370
+r1
+xCompileXIB
+x/Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib328059835#328059835#0(0"0(0#0#66"/Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib8612872320#371"    cd /Sites/sandbox/Music-Player/Application    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/MainMenu.nib /Sites/sandbox/Music-Player/Application/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s328059835.236055
+e328059835.459782
+r1
+xCopyStringsFile
+x/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings328059835#328059835#0(0"0(0#0#71"/Sites/sandbox/Music-Player/Application/English.lproj/InfoPlist.strings8610292736#371"    cd /Sites/sandbox/Music-Player/Application    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Resources/English.lproj0#
+
+CLd /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application normal x86_64
+s328059838.294083
+e328059838.823333
+r1
+xLd
+x/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application
+xnormal
+xx86_64
+lSLF07#2@99"Link /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application328059838#328059838#0(0"0(0#0#0"8610733888#567"    cd /Sites/sandbox/Music-Player/Application    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Sites/sandbox/Music-Player/Application/build/Debug -F/Sites/sandbox/Music-Player/Application/build/Debug -filelist /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Objects-normal/x86_64/Application.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/MacOS/Application0#
+
+CProcessInfoPlistFile /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Info.plist Application-Info.plist
+s328059835.192155
+e328059835.235880
+r1
+xProcessInfoPlistFile
+x/Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Info.plist
+xApplication-Info.plist
+lSLF07#2@30"Process Application-Info.plist328059835#328059835#0(0"0(0#0#62"/Sites/sandbox/Music-Player/Application/Application-Info.plist30962724186423412#325"    cd /Sites/sandbox/Music-Player/Application    builtin-infoPlistUtility Application-Info.plist -genpkginfo /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Sites/sandbox/Music-Player/Application/build/Debug/Application.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch.gch Application_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328059835.475688
+e328059838.043027
+r1
+xProcessPCH
+x/var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch.gch
+xApplication_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Application_Prefix.pch328059835#328059838#0(0"0(0#0#62"/Sites/sandbox/Music-Player/Application/Application_Prefix.pch8610678944#1442"    cd /Sites/sandbox/Music-Player/Application    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-generated-files.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-own-target-headers.hmap -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-all-target-headers.hmap -iquote /Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/Application-project-headers.hmap -F/Sites/sandbox/Music-Player/Application/build/Debug -I/Sites/sandbox/Music-Player/Application/build/Debug/include -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources/x86_64 -I/Sites/sandbox/Music-Player/Application/build/Application.build/Debug/Application.build/DerivedSources -c /Sites/sandbox/Music-Player/Application/Application_Prefix.pch -o /var/folders/+y/+yFNo563EeWa2dWs5Ym3Mk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-gzljzhcvuguzckepynhjtjmbdnpr/Application_Prefix.pch.gch0#
+
+CTouch /Sites/sandbox/Music-Player/Application/build/Debug/Application.app
+s328059838.823402
+e328059838.825337
+r1
+xTouch
+x/Sites/sandbox/Music-Player/Application/build/Debug/Application.app
+lSLF07#2@73"Touch /Sites/sandbox/Music-Player/Application/build/Debug/Application.app328059838#328059838#0(0"0(0#0#0"8613342528#137"    cd /Sites/sandbox/Music-Player/Application    /usr/bin/touch -c /Sites/sandbox/Music-Player/Application/build/Debug/Application.app0#
+
